@@ -41,7 +41,7 @@ async function getCitiesWeather(cities) {
       result.weather[city.city] = (temp - 273.15).toFixed(3) + "C";
     });
 
-    const data = await Promise.all(promise);
+    await Promise.all(promise);
     return result;
   } catch (err) {
     throw new Error(err.message);
