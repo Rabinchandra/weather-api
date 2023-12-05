@@ -10,4 +10,4 @@
  Example Input { "cities": [ "toronto", "mumbai", "london" ] } 
  Example Output { "weather": { "toronto": "24C", "mumbai": "34C", "london": "14C" } } 
  
- 2 Bonus Create a simple UI app which accepts the names of the cities as input in a text box and makes a call to the API endpoint created in #1 and also displays the result in the UI. Please push your code to either github or gitlab and send me the workable link. ̰
+ 2 Bonus Create a simple UI app which accepts the names of the cities as input in a text box and makes a call to the API endpoint created in #1 and also displays the result in the UI. Please push your code to either github or gitlab and send me the workable link.

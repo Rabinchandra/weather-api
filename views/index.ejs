@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>My Cities</h1>
+      <form action="getWeather" method="POST" name="form">
+        <input
+          type="text"
+          name="input"
+          placeholder="Search for cities"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <i class="fi fi-rr-search"></i>
+      </form>
+      <ul id="output"></ul>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

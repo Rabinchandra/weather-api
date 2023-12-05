@@ -4,9 +4,12 @@ const { getCitiesCoordinates, getCitiesWeather } = require("./api/utilities");
 
 // Middleware
 app.use(express.json());
+app.use(express.static("public"));
+app.set("view engine", "ejs");
 
 app.post("/getWeather", async (req, res) => {
   const cities = req.body.cities;
+  console.log(req.body);
 
   if (cities) {
     try {
@@ -20,6 +23,10 @@ app.post("/getWeather", async (req, res) => {
   } else {
     res.status(400).send({ error: "Please provide cities" });
   }
+});
+
+app.get("/", (req, res) => {
+  res.render("index");
 });
 
 app.listen(5001, () => console.log("Listening on PORT 5001"));

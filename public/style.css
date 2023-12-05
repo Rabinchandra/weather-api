@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+@import url("https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css");
+* {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #3c4758;
+}
+
+#output img {
+  width: 100px;
+}
+
+h1 {
+  color: rgb(168, 226, 249);
+}
+
+li {
+  text-transform: capitalize;
+}
+
+main {
+  margin: auto;
+  margin-top: 4em;
+  width: 500px;
+  border-radius: 8px;
+  min-height: 500px;
+  background-color: rgba(32, 43, 60, 255);
+  color: #fff;
+  padding: 2em;
+}
+
+form {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding: 12px 1.5em;
+  border-radius: 10px;
+  background-color: #3c4758;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+form input {
+  font-size: 15px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  flex: 1;
+}
+
+form i {
+  display: block;
+  margin-left: 10px;
+  color: rgb(168, 226, 249);
+}
+
+form input:first-child::placeholder {
+  color: #ffffff92;
+}
+
+form input[type="submit"] {
+  border: none;
+  outline: none;
+  background-color: #5915b9;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 13px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #4b0ea1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 2em 0;
+}
+
+li span {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li {
+  display: flex;
+  margin: 1em 0;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  padding: 16px 20px;
+  margin-bottom: 10px;
+  background-color: #3c4758;
+  border-radius: 10px;
+  color: rgb(168, 226, 249);
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+}
